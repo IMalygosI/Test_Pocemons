@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FonPIKA">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginBottom="431dp"
+        android:background="@drawable/logotip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/exitButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/img_17"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="305dp"
+        android:background="@drawable/round_corners"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/img_20">
+        </ImageView>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="About"
+            android:textAlignment="center"
+            android:textColor="@color/FonPIKA"
+            android:textSize="22sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/img_19">
+        </ImageView>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="Base Stats"
+            android:textAlignment="center"
+            android:textColor="@color/FonPIKA"
+            android:textSize="22sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/img_18">
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="220dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/nazad"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/img_6">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/img_21">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/dalee"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/skobl">
+
+        </ImageView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SortByNumber"
+    android:background="@color/Fon">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pokedex"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="310dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/search_corners"
+                android:iconifiedByDefault="false"
+                android:queryHint="Search">
+
+            </SearchView>
+
+            <ImageButton
+                android:id="@+id/Sort_Button"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/sortbutton">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="400dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/round_corners"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp">
+
+            <ImageButton
+                android:id="@+id/Bulbasaur"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/bulbasaur">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/Charmander"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/charmander">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/Squirtle"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/squirtle">
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp">
+
+            <ImageButton
+                android:id="@+id/Butterfree"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/butterfree">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/Pikapikachu"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/pikapikachu">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/Gastly"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/gastly">
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp">
+
+            <ImageButton
+                android:id="@+id/Ditto"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/ditto">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/Mew"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/mew">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/Aron"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/aron">
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Fon">#dc0a2d </color>
+    <color name="Fonbulbasaur">#74cb48</color>
+    <color name="Fonbulcharmande">#f47d31</color>
+    <color name="Fonbulsquirtle">#6393eb</color>
+    <color name="Fonbulbutterfree">#a6b723</color>
+    <color name="FonPIKA">#f8d233</color>
+    <color name="Fonbulse">#6e58a0</color>
+    <color name="Fonditto">#aaa680</color>
+    <color name="FonMew">#fb5281</color>
+    <color name="FonAron">#b5bcd0</color>
+</resources>

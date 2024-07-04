@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/MenuStyle">
+    <item android:id="@+id/Number"
+        android:title="Number"
+        android:background="@color/Fon"
+        android:textColor="@color/black" />
+    <item android:id="@+id/Name"
+        android:title="Name"
+        android:background="@color/Fon"
+        android:textColor="@color/black" />
+</menu>
